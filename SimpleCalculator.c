@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define FLUSH while(getchar()!='\n')
+#define FLUSH while(getchar()!='\n');
 
 int main()
 {
