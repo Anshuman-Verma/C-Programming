@@ -1,4 +1,5 @@
 #include<stdio.h>
+#define FLUSH while(getchar()!='\n')
 
 int main()
 {
@@ -26,6 +27,7 @@ while(ch!='q')
 
 		default: printf("INVALID !!!");
 		}
+	FLUSH;
 	scanf("%c",&ch);
 	}
 
