@@ -20,7 +20,7 @@ int count=0;
 for(i=0;i<n;i++)
 	{ count =0;
 	if(temp[i]!=0)
-	  {	for(j=0;j<n;j++)
+	  {	for(j=i;j<n;j++)
 		 {	
 			{
 			if(A[i]==A[j])
